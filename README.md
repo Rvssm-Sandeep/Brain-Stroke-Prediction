@@ -8,6 +8,12 @@ This project aims to predict the risk of stroke based on user input using machin
 
 To get started, clone this repository and install the required Python packages.
 
+**Note:** Before installing dependencies, create a virtual environment:
+
+```bash
+python -m venv venv
+venv\Scripts\activate 
+```
 ### Installation
 
 1. **Clone the Repository**
@@ -17,7 +23,7 @@ To get started, clone this repository and install the required Python packages.
    cd <repository-directory>
 ## To Install Required Packages and To run our Application 
    ```bash 
-   pip install streamlit pandas numpy scikit-learn xgboost streamlit-lottie streamlit_option_menu
+   pip install -r requirements.txt
    streamlit run main.py
    ```
 
